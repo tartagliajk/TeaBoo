@@ -1,0 +1,424 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/kokoro.css);
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+body{
+    background-color: F6FFF8;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*header start*/
+
+div > #header > div > a{
+    text-decoration: none;
+    color: black;
+}
+
+div > a > h1{
+    font-size: 25px;
+}
+
+#header{
+    position: absolute;
+    width: 90%;
+    height: 15%;
+    left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Lily Script One';
+    font-weight: 100;
+    flex: wrap;
+    min-width:700px;
+}
+
+#header > div > h1{
+    font-size: 24px;
+}
+
+.logo{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: -100px;
+    margin-right: 10px;
+    border: #CCE3DE 4px solid;
+    border-radius: 100%;
+}
+
+.person-icon{
+    width: 60px;
+}
+
+.border{
+    width: 220px;
+    height: 65px;
+    background-color: #CCE3DE;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/*header end*/
+
+/*Slider start*/
+.sliders{
+    margin: 11%;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #333B3D;
+    border-radius: 50px;
+    border: 10px #CCE3DE solid;
+}
+  
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    padding-left: 155px;
+    width: 500px;
+    height: 500px;
+}
+
+/*manual slide navigation*/
+
+.navigation-manual{
+    position: absolute;
+    width: 500px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+}
+
+.manual-btn{
+    border: 2px solid #677174;
+    width: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: #677174;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    margin-top: 460px;
+    margin-left: 140px;
+}
+
+.navigation-auto div{
+    border: 2px solid #677174;
+    padding: 5px;
+    width: 50px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #677174;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #677174;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #677174;
+}
+
+/*Slider end*/
+
+/*Search bar start*/
+.search-bar{
+    position: absolute;
+    width: 900px;
+    top: 760px;
+    display: flex;
+    margin-left: 10px;
+}
+
+#search-icon{
+    width: 40px;
+    padding-left: 100px;
+}
+
+#bar{
+    position: absolute;
+    width: 600px;
+    height: 40px;
+    margin-left: 170px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.6);;
+    background: #D9D9D9;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+/*Search bar end*/
+
+/*Category start*/
+.category{
+    position: absolute;
+    flex: display;
+    margin-top: 840px;
+    height: 255px;
+}
+
+.category-group{
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+}
+
+#category-items{
+    width: 110px;
+    height: 100px;
+    background-color: #6B9080;
+    border-radius: 25px;
+}
+
+#category-text{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+} 
+
+/*Category end*/
+
+/*popular statr*/
+.popular{
+    position: absolute;
+    margin-top: 1180px;
+    background-color: #333B3D;
+    height: 380px;
+    text-align: center;
+    color: #D9D9D9;
+    border-radius: 50px;
+}
+
+.popular-group{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+#popular-img{
+    width: 150px;
+    height: 220px;
+    border-radius: 25px;
+    display: block;
+}
+
+.popular-text{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 39px;
+    gap: 22px;
+}
+
+.popular-text > p{
+    padding-top: 10px;
+    width: 170px;
+    height: 30px;
+    border-radius: 25px;
+    color: #DEDEDE;
+    background: #1E1E1E;
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 15px;
+}
+/*popular end*/
+
+/*costumer reviews start*/
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card*/
+#reviews-text{
+    position: absolute;
+    top: 1700px;
+    color:#6B9080;
+    font-family: 'Lora', serif;
+
+}
+
+.reviews{
+    position: absolute;
+    width: 90%;
+    height: 450px;
+    top: 1700px;
+    color: #6B9080;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-style: thin;
+    display: flex;
+    margin-left: 10%;
+}
+
+.reviews-group{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card-arrow{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 268px;
+    font-size: 22px;
+}
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0px 4px 4px rgba(117, 239, 237, 0.25);
+}
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-card-front {
+    background-color: #6B9080;;
+    color: black;
+    border-radius: 15px;
+
+}
+  
+.flip-card-back {
+    background-color: #A4C3B2;
+    color: rgba(255, 255, 255, 0.97);
+    transform: rotateY(180deg);
+    border-radius: 15px;
+}
+
+.flip-card-back > p{
+    margin: 0px 10px 10px 20px;
+}
+
+#grade{
+    color: #4a5852;
+}
+
+.flip-card-back > h2{
+    margin: 30px 10px 0px 10px;
+}
+
+/*costumer reviews end*/
+
+/*footer start*/
+.footer{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 210px;
+    top: 2300px;
+    background-color: #333B3D;
+    font-family: 'IBM Plex Sans KR';
+}
+
+.footer-group{
+    padding-left: 120px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.footer-group > a > img{
+    margin: 60px 0px 0px 17%;
+    width: 45px;
+    height: 45px;
+}
+
+#footer-text{
+    margin-left: -55%;
+    margin-top: 8%;
+    color: white;
+    display: flex; 
+    gap: 10px;
+}
+
+#footer-text > a{
+    color: white;
+    text-decoration: none;
+}
+
+#credit-text{
+    margin-top: 12%;
+    margin-left: -145px;
+    color: rgba(255, 255, 255, 0.2);
+}
+/*footer end*/

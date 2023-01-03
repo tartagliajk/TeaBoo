@@ -1,0 +1,251 @@
+.contact-container{
+    position: absolute;
+    top: 210px;
+    width: 60%;
+    height: 10px;
+    border-top: 6px solid #4B675B;
+}
+
+.triangle-end{
+    position: absolute;
+    top: -18px;
+    left: -40px;
+    width: 60px;
+    height: 30px;
+    background: #4B675B;
+    clip-path: polygon(50% 0%, 50% 100%, 100% 50%);
+}
+
+.triangle-start{
+    position: absolute;
+    top: -18px;
+    left: 96%;
+    width: 60px;
+    height: 30px;
+    background: #4B675B;
+    clip-path: polygon(50% 0%, 50% 100%, 100% 50%);
+}
+
+.gray-container{
+    position: absolute;
+    width: 900px;
+    height: 770px;
+    top: 50px;
+    background: #677174;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-us{
+    position: absolute;
+    width: 234px;
+    height: 48px;
+    left: 80px;
+    top: 10px;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.contact-text{
+    position: absolute;
+    width: 500px;
+    height: 123px;
+    top: 80px;
+    left: 80px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.Name{
+    position: absolute;
+    width: 250px;
+    height: 43px;
+    left: 80px;
+    top: 220px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 43px;
+    background-color: transparent;
+    color: rgb(234, 233, 233);
+    border: transparent 0px solid;
+    border-bottom: #33463e 2px solid;
+}
+
+::placeholder {
+    color: rgb(234, 233, 233);
+    opacity: 1;
+}
+
+.Email{
+    position: absolute;
+    width: 340px;
+    height: 43px;
+    left: 80px;
+    top: 290px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 43px;
+    background-color: transparent;
+    color: rgb(234, 233, 233);
+    border: transparent 0px solid;
+    border-bottom: #33463e 2px solid;
+}
+
+.Number{
+    position: absolute;
+    width: 340px;
+    height: 43px;
+    left: 80px;
+    top: 360px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 43px;
+    background-color: transparent;
+    color: rgb(234, 233, 233);
+    border: transparent 0px solid;
+    border-bottom: #33463e 2px solid;
+}
+
+.Message{
+    position: absolute;
+    left: 80px;
+    top: 450px;
+    max-width: 350px;
+    max-height: 190px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 43px;
+    background-color: transparent;
+    color: rgb(234, 233, 233);
+    border: #33463e 2px solid;
+}
+
+.File{
+    position: absolute;
+    left: 460px;
+    top: 450px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: transparent;
+    color: rgb(234, 233, 233);
+}
+
+.News{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 80px;
+    top: 660px;
+    background: #D9D9D9;
+    z-index: 2;
+}
+
+.News-text{
+    position: absolute;
+    left: 135px;
+    top: 644px;
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    z-index: 1;
+    text-align: right;
+    color: #ffffff7c;
+}
+
+.Submit{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 80px;
+    top: 720px;
+    font-family: 'Lora';
+}
+  
+.info-container{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 713px;
+    top: 200px;
+    background: #333B3D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info{
+    position: absolute;
+    width: 73px;
+    height: 43px;
+    left: 40px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-size: 34px;
+    color: rgba(255, 255, 255, 0.845);
+}
+
+.mail{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    top: 100px;
+    left: 40px;
+}
+
+.telephone{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 165px;
+    left: 40px;
+}
+
+.house{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 230px;
+    left: 40px;
+}
+
+.time{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 300px;
+    left: 40px;
+}
+
+.info-text{
+    position: absolute;
+    width: 200px;
+    height: 346px;
+    left: 120px;
+    top: 54px;
+    font-family: 'Kokoro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.footer{
+    margin-top: -1000px;
+}

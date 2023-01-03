@@ -1,0 +1,96 @@
+.container{
+    top: 200px;
+    position: absolute;
+    width: 100%;
+    height: 1096px;
+}
+
+.heading{
+    padding-left: 45%;
+    font-family: 'Lily Script One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 66px;
+}
+
+.background{
+    position:absolute;
+    z-index: -2;
+    width: 80%;
+    left: 10%;
+    height: 1096;
+}
+
+.img{
+    position: absolute;
+    width: 450px;
+    height: 650px;
+    left: 12%;
+    top: 21.5%;
+    border: 10px solid #4B675B;
+}
+
+.login-box{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 52%;
+    top: 30%;
+    background: #4B675B;
+}
+
+.box-topshadow{
+    width: 500px;
+    height: 70px;
+    box-shadow: 0px 4px 4px #333B3D;
+}
+
+.login-text{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 4%;
+    padding-left: 3%;
+    color: white;
+}
+
+.login-info{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    border: transparent ;
+    background-color: #3A5046;
+    color: white;
+    font-family: 'Lora';
+    font-size: 20px;
+}
+
+.submit{
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    top: 380px;
+    left: 25%;
+    background-color: #3A5046;
+    color: rgba(255, 255, 255, 0.725);
+    font-family: 'Lora';
+    font-size: 20px;
+}
+
+.create-acc{
+    position: absolute;
+    width: 344px;
+    height: 82px;
+    left: 16%;
+    top: 100%;
+    font-family: 'Lora';
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer{
+    margin-top: -850px;
+}

@@ -1,0 +1,157 @@
+body{
+    background-color: white;
+}
+
+
+.menu-rectangle{
+    position: absolute;
+    padding-top: 5px;
+    width: 404px;
+    height: 70px;
+    top: 170px;
+    background: #6B9080;
+    border-radius: 58px;
+    position: absolute;
+    font-family: 'Lobster Two', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title{
+    position: absolute;
+    top: 300px;
+}
+
+.boba-image{
+    position: absolute;
+    top: 400px;
+    width: 30%;
+}
+
+.menu-container{
+    z-index: -4;
+    position: absolute;
+    width: 100%;
+    height: 1600px;
+    top: 500px;
+    border-top: #6B9080 8px solid;
+    background-color: #FEF6E3;
+}
+
+.circle1{
+    width: 30px;
+    height: 30px;
+    margin-top: -20px;
+    left: 0;
+    background-color: #6B9080;
+    border-radius: 50%;
+}
+
+.circle2{
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 97.85%;
+    background-color: #6B9080;
+    border-radius: 50%;
+}
+
+table{
+    font-family: 'Lora', serif;
+}
+
+.fruit-container{
+    margin-top: 100px;
+    margin-left: 12%;
+    width: 400px;
+}
+
+td{
+    text-align: left;
+    gap: 100px;
+}
+
+.text{
+    padding-left: 30px;
+    width: auto;
+}
+
+caption{
+    font-size: 25px;
+    margin-left: -330px;
+}
+
+.size-regular{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #CCE3DE;
+    border-radius: 102px;
+}
+
+.size-large{
+    position: absolute;
+    margin-left: 70px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #CCE3DE;
+    border-radius: 102px;
+}
+
+.milky-container{
+    margin-top: -90px;
+    margin-left: 57%;
+    width: 400px;
+}
+
+.tea-container{
+    margin-top: -10px;
+    margin-left: 15%;
+    width: 400px;
+}
+
+.tea-img{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    left: 4%;
+    top: 410px;
+    transform: rotate(15.61deg);
+    z-index: -2;
+}
+
+.ice-container{
+    margin-top: -40px;
+    margin-left: 57%;
+    width: 400px;
+}
+
+.smoothie-container{
+    margin-top: -10px;
+    margin-left: 15%;
+    width: 400px;
+}
+
+.coffee-container{
+    margin-top: -40px;
+    margin-left: 57%;
+    width: 400px;
+}
+
+.cocoa{
+    position: absolute;
+    left: 80%;
+    top: 1000px;
+    width: 100px;
+    height: 150px;
+    z-index: -2;
+    transform: rotate(-15.56deg);
+}
+
+.footer{
+    top: 1980px;
+}

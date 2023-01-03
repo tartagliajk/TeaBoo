@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boba Tea Bar</title>
+    <link rel="stylesheet" href="stylesheet/indexStyle.css">
+    <link rel="icon" href="images/logo.png">
+    <link href='https://fonts.googleapis.com/css?family=Lily Script One' rel='stylesheet'>
+    <script src="script.js"></script>
+</head>
+<body>
+<!--Header start-->
+<div>
+    <div id="header">
+        <div>
+            <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+        </div>
+        <div>
+            <a href="index.html"><h1>Home</h1></a>
+        </div>
+        <div>
+            <a href="menu.html"><h1>Menu</h1></a>
+        </div>
+        <div>
+            <a href="contact.html"><h1>Contact</h1></a>
+        </div>
+        <div class="border">
+            <a href="myOrders.html"><h1> My Orders 🛒</h1></a>
+        </div>
+        <div>
+            <a href="login.html"><img src="images/person-icon.png" alt="person-icon" class="person-icon"></a>
+        </div>
+    </div>
+</div>
+<!--Header end-->
+
+<!--https://www.codingsnow.com/2021/01/image-slider-with-auto-play-manual.html (slideshow)-->
+<!--image slider start-->
+<div class="sliders">
+    <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+        <img src="images/slideshow.jpg" alt="">
+        </div>
+        <div class="slide">
+        <img src="images/slideshow2.jpg" alt="">
+        </div>
+        <div class="slide">
+        <img src="images/slideshow3.jpg" alt="">
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        </div>
+        <!--automatic navigation end-->
+    </div>
+    <!--manual navigation start-->
+    <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+    </div>
+    <!--manual navigation end-->
+</div>
+    <!--image slider end-->
+
+<!--search bar start-->
+<div class="search-bar">
+    <div>
+        <img src="images/search.png" alt="" id="search-icon">
+    </div>
+    <input type="text" name="search" id="bar" placeholder="Brown Suger Boba...">
+</div>
+<!--search bar end-->
+
+<!--start category-->
+<div class="category">
+    <div>
+        <h1>Categories</h1>
+    </div>
+    <div class="category-group">
+        <a href="menu.html">
+            <div id="category-items">
+                <p id="category-text">Boba</p>
+            </div>
+        </a>
+        <a href="menu.html">
+            <div id="category-items">
+                <p id="category-text">Tea</p>
+            </div>
+        </a>
+        <a href="menu.html">
+            <div id="category-items">
+                <p id="category-text">Ice</p>
+            </div>
+        </a>
+        <a href="menu.html">
+            <div id="category-items">
+                <p id="category-text">Coffee</p>
+            </div>
+        </a>
+        <a href="menu.html">
+            <div id="category-items">
+                <p id="category-text">Smoothie</p>
+            </div>
+        </a>
+    </div>
+</div>
+<!--end category-->
+
+<!--popular start-->
+<div class="popular">
+    <div>
+        <h1>Hot right now</h1>
+    </div>
+    <div class="popular-group">
+        <div>
+            <img src="images/thai-tea.jpg" alt="thai tea" id="popular-img"></img>
+        </div>
+        <div>
+            <img src="images/lychee boba.jpg" alt="lychee boba" id="popular-img"></img>
+        </div>
+        <div>
+            <img src="images/strawberry smoothie.jpg" alt="strawberry smoothie" id="popular-img"></img>
+        </div>
+        <div>
+            <img src="images/brown sugar boba.jpg" alt="brown sugar boba" id="popular-img"></img>
+        </div>
+    </div>
+    <div class="popular-text">
+        <p>Thai Tea</p>
+        <p>Lychee Boba</p>
+        <p>Strawberry Smoothie</p>
+        <p>Brown Sugar Boba</p>
+    </div>
+</div>
+<!--popular end-->
+
+<!--reviews start-->
+<div id="reviews-text">
+    <h1>Costumer reviews</h1>
+</div>
+<div class="reviews">
+    <div class="reviews-group">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/labb boba.png" alt="labb boba" style="width:250px;height:250px; margin-left: 25px; margin-top: 25px; border-radius: 25px;">
+                    <p class="flip-card-arrow">➤</p>
+                </div>
+                <div class="flip-card-back">
+                    <h2>Dr. Dottore</h2> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quaerat nostrum eaque minima corporis assumend. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti soluta asperiores voluptas.</p> 
+                    <p id="grade">9.5 / 10</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reviews-group">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/bear boba.png" alt="bear boba" style="width:250px;height:250px; margin-left: 25px; margin-top: 25px; border-radius: 25px;">
+                    <p class="flip-card-arrow">➤</p>
+                </div>
+                <div class="flip-card-back">
+                    <h2>Ciel ミ★</h2> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quaerat nostrum eaque minima corporis assumend. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti soluta asperiores voluptas.</p> 
+                    <p id="grade">10 / 10</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reviews-group">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/lamp boba.png" alt="lamp boba" style="width:250px;height:250px; margin-left: 25px; margin-top: 25px; border-radius: 25px;">
+                    <p class="flip-card-arrow">➤</p>
+                </div>
+                <div class="flip-card-back">
+                    <h2>BobaLover123</h2> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quaerat nostrum eaque minima corporis assumend. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti soluta asperiores voluptas.</p> 
+                    <p id="grade">9 / 10</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--reviews end-->
+
+<!--Fotter start-->
+<footer class="footer">
+    <div class="footer-group">
+        <a href="https://www.instagram.com">
+            <img src="images/instagram.png" alt="instagram">
+        </a>
+        <a href="https://www.twitter.com">
+            <img src="images/twitter.png" alt="twitter">
+        </a>
+        <a href="https://www.facebook.com">
+            <img src="images/facebook.png" alt="facebook">
+        </a>
+    </div>
+    <div id="footer-text">
+        <a href="menu.html">
+            <p>Menu</p>
+        </a>
+        <p>||</p>
+        <a href="contact.html">
+            <p>Contact</p>
+        </a>
+        <p>||</p>
+        <a href="myOrders.html">
+            <p>Orders</p>
+        </a>
+    </div>
+    <p id="credit-text">©TeeBoo</p>
+</footer>
+
+</body>
+</html>
