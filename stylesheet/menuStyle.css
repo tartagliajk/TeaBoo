@@ -155,3 +155,10 @@ caption{
 .footer{
     top: 1980px;
 }
+
+.price{
+    position: absolute;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    top: -90px;
+}
