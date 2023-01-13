@@ -32,7 +32,7 @@ div > a > h1{
     height: 15%;
     left: 5%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; /* jämn mellanrum mellan objekten*/
     align-items: center;
     flex-direction: row;
     font-family: 'Lily Script One';
@@ -75,7 +75,7 @@ div > a > h1{
     width: 800px;
     height: 500px;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: hidden; /*vissar endast det som är inom ramen och "cuttar" ut allting annat*/
     background-color: #333B3D;
     border-radius: 50px;
     border: 10px #CCE3DE solid;
@@ -93,7 +93,7 @@ div > a > h1{
 
 .slide{
     width: 20%;
-    transition: 2s;
+    transition: 3s; /*tiden det tar att ändra slide*/
 }
 
 .slide img{
@@ -103,7 +103,6 @@ div > a > h1{
 }
 
 /*manual slide navigation*/
-
 .navigation-manual{
     position: absolute;
     width: 500px;
@@ -118,7 +117,7 @@ div > a > h1{
     width: 50px;
     border-radius: 10px;
     padding: 5px;
-    cursor: pointer;
+    cursor: grab; /* ändrar hur musen ser ut nör man håller över knappen*/
     transition: 1s;
 }
 
@@ -130,7 +129,7 @@ div > a > h1{
     background: #677174;
 }
 
-#radio1:checked ~ .first{
+#radio1:checked ~ .first{ /*förflyttning till nästa bild*/
     margin-left: 0;
 }
 
@@ -165,7 +164,7 @@ div > a > h1{
     margin-right: 40px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1{
+#radio1:checked ~ .navigation-auto .auto-btn1{ /*vissar den färgen på knappen ifall man är på den sliden*/
     background: #677174;
 }
 
@@ -211,8 +210,7 @@ div > a > h1{
 /*Category start*/
 .category{
     position: absolute;
-    flex: display;
-    margin-top: 840px;
+    margin-top: 850px;
     height: 255px;
 }
 
@@ -294,7 +292,6 @@ div > a > h1{
     top: 1700px;
     color:#6B9080;
     font-family: 'Lora', serif;
-
 }
 
 .reviews{
@@ -336,19 +333,19 @@ div > a > h1{
     width: 100%;
     height: 100%;
     transition: transform 0.6s;
-    transform-style: preserve-3d;
+    transform-style: preserve-3d; /*gör så att den andra sidan syns --> därmed ser effekt mer 3d ut*/
     box-shadow: 0px 4px 4px rgba(117, 239, 237, 0.25);
 }
   
 .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg); /*ändrar till den andra sidan när man håller över*/
 }
   
 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /*gör så att backsidan av den sidan som vissas inte är synlig*/
     backface-visibility: hidden;
 }
   
@@ -362,7 +359,7 @@ div > a > h1{
 .flip-card-back {
     background-color: #A4C3B2;
     color: rgba(255, 255, 255, 0.97);
-    transform: rotateY(180deg);
+    transform: rotateY(180deg); /*detta gör så att den visar backsidan*/
     border-radius: 15px;
 }
 
@@ -413,7 +410,7 @@ div > a > h1{
 
 #footer-text > a{
     color: white;
-    text-decoration: none;
+    text-decoration: none; /*ingen länkfärg eller understrck*/
 }
 
 #credit-text{
@@ -422,3 +419,28 @@ div > a > h1{
     color: rgba(255, 255, 255, 0.2);
 }
 /*footer end*/
+
+/*
+https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+tog hjälp av denna länk för att ändra hur scrollen såg ut
+*/
+::-webkit-scrollbar {
+    width: 15px; /*bredden på scrollen*/
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.082); /*skuggan för hela scrollen*/
+    border-radius: 10px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(19, 95, 76);  /*färgen på själva scrollen*/
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #000000; /*ändrar på färgen ifall man håller musen över*/
+}

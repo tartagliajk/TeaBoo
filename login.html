@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="/stylesheet/loginStyle.css">
     <link rel="stylesheet" href="/stylesheet/indexStyle.css">
     <link rel="icon" href="images/logo.png">
-    <link href='https://fonts.googleapis.com/css?family=Lily Script One' rel='stylesheet'>
     <script src="script.js"></script>
 </head>
 <body>
@@ -45,14 +44,14 @@
             <div class="box-topshadow">
                 <p class="login-text">Already a member?</p>
             </div>
-            <div>
-                <input type="email" name="login-email" class="login-info" placeholder="Email">
-                <input type="password" name="login-password" class="login-info" placeholder="Password">
+            <form>
+                <input type="email" name="login-email" class="login-info" placeholder="Email" required>
+                <input type="password" name="login-password" class="login-info" placeholder="Password" required>
                 <input type="submit" value="Sign in" class="submit">
-            </div>
+            </form>
             <div class="create-acc">
                 <p style="color: rgba(0, 0, 0, 0.56);">Don’t have an account?</p>
-                <a href="signup.html"><p style="color: #6B9080; text-decoration: underline;">Create an account</p></a>
+                <a href="signup.html"><p style="color: #6B9080; text-decoration: underline;">Create an account</p></a> <!-- ger en underline på länken -->
             </div>
         </div> 
     </div>

@@ -71,7 +71,7 @@ table{
 
 td{
     text-align: left;
-    gap: 100px;
+    gap: 100px; /* mellanrum mellan objekten */
 }
 
 .text{
@@ -120,7 +120,7 @@ caption{
     height: 150px;
     left: 4%;
     top: 410px;
-    transform: rotate(15.61deg);
+    transform: rotate(15.61deg); /* rotering av bild*/
     z-index: -2;
 }
 

@@ -13,7 +13,7 @@
     width: 60px;
     height: 30px;
     background: #4B675B;
-    clip-path: polygon(50% 0%, 50% 100%, 100% 50%);
+    clip-path: polygon(50% 0%, 50% 100%, 100% 50%); /*självaste triangel formen skapas av en polygon*/
 }
 
 .triangle-start{
@@ -45,7 +45,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-    line-height: 48px;
+    line-height: 48px; /*hur stor plats boxen där texten tar*/
     color: #FFFFFF;
 }
 
@@ -81,7 +81,7 @@
 }
 
 ::placeholder {
-    color: rgb(234, 233, 233);
+    color: rgb(234, 233, 233); /* färgen på texten inuti inputen*/
     opacity: 1;
 }
 
@@ -154,7 +154,7 @@
     left: 80px;
     top: 660px;
     background: #D9D9D9;
-    z-index: 2;
+    z-index: 2; /* olika lager dvs numret säger vilket lager den är på*/
 }
 
 .News-text{
